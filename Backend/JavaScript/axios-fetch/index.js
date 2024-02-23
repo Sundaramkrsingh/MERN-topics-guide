@@ -2,7 +2,7 @@ const axios = require('axios')
 
 //*****************************************************************
 
-// GET with axios
+// GET with fetch
 async function main() {
     const response = await fetch('https://sum-server.100xdevs.com/todos')
     const json = await response.json();
